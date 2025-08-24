@@ -1,4 +1,9 @@
 // dATE IS OBJECT
 
-let myDate =  new Date()   
-console.log(myDate.toString());
+let myDate =  new Date();
+console.log(myDate.getTime())
+// console.log(myDate.toString());
+let myTime= Date.now()
+// console.log(myTime)
+let newDate = new Date();
+// console.log(newDate.getMonth())
