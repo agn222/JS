@@ -45,8 +45,14 @@ const course = {
 }
 
 const {courseInstructor : Instructor} = course // not working
- console.log(courseInstructor)
- console.log(course.courseInstructor)
- console.log(Instructor)
+//  console.log(courseInstructor)
+//  console.log(course.courseInstructor)
+//  console.log(Instructor)
  
-console.log(tinderUser)
+// console.log(tinderUser)
+
+// { // JSON
+//     "name" : "Atharva",
+//     "age"  : "20",
+
+// }
