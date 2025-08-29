@@ -31,11 +31,11 @@ JsUser.email = "atharvagnaik@gpt.com" // email would not be modified
 
 JsUser.greeting = function()
 {
-    console.log("HELLO JS USER");
+     return "HELLO JS USER";
 }
 JsUser.greetingTwo = function()
 {
-    console.log(`HELLO JS USER ,${this.name}`)}
+    return `HELLO JS USER ,${this.name}`;}
 
-JsUser.greeting();
-JsUser.greetingTwo();
+console.log(JsUser.greeting);
+ onsole.log(JsUser.greetingTwo);
