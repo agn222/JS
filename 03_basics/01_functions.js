@@ -35,4 +35,36 @@ function loginUserMessage(username = "sam"){
 
     return `${username} just Logged In`
 }
-console.log(loginUserMessage("atharva"))
+// console.log(loginUserMessage("atharva"))
+
+function calculateCarPrice(...num1) ///... is rest or spread operator
+{return num1
+
+}
+// console.log(calculateCarPrice(100,200,400,500)) // gives array
+
+const user = {
+    username : "Atharva",
+    price: 200
+}
+function handleObject(anyobject) {
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+    
+      
+}
+// handleObject(user)
+handleObject({
+    username : "sam",
+price : 400})
+
+
+const NewArray = [200 , 100 ,400]
+function returnSecondValue(getArray)
+{
+    return getArray[1]
+
+
+}
+
+console.log(returnSecondValue(NewArray))
+console.log(returnSecondValue([200 ,400]))
