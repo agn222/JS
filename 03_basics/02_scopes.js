@@ -15,4 +15,16 @@ var c = 30
 console.log(c) // var c is accessible outside scope
 // whereas let and const are not accessible outside scope{}
 
+function one (){
+    const username = "Atharva"
+    function two()
+    {
+        const website = "youtube"
+        console.log(username);
+
+    }  
+//   console.log(website) // wrbsite is not accessible as it is out of scope
+two()
+}
+one()
 
